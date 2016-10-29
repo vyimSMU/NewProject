@@ -296,7 +296,7 @@ HICGRAPH2<-HICGRAPH[complete.cases(HICGRAPH),]
 qplot(country, GDP, data=HICGRAPH2, color=factor(IncomeGroup),  main='GDP by Country')
 ```
 
-![](blob/master/unnamed-chunk-4-1.png)<!-- -->
+![](unnamed-chunk-4-1.png)<!-- -->
 
 5) Cut the GDP ranking into 5 separate quantile groups. Make a table versus Income.Group.
 How many countries are Lower middle income but among the 38 nations with highest
