@@ -353,7 +353,7 @@ Pivottabletable
 ##   Uppermiddleincome 11  8 11 13  2
 ```
 
-*There are 17 countries that are Lower middle income but among the 38 nations with highest GDP (in first quantity above)*
+*There are 17 countries that are Lower middle income but among the 38 nations with highest GDP (in first quantile above)*
 
 
 ## Summary
