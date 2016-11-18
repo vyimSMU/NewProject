@@ -101,7 +101,7 @@ fitd <- decompose(ukcars)
 plot(fitd)
 ```
 
-![](Live_Session_unit_11_Assignment_Markdown_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![](unnamed-chunk-3-1.png)<!-- -->
   
     
 c)	Do the results support the graphical interpretation from part (a)?   
