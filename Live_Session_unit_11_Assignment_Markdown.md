@@ -90,7 +90,7 @@ a)	Plot the time series. Can you identify seasonal fluctuations and/or a trend?
 plot(ukcars)
 ```
 
-![](Live_Session_unit_11_Assignment_Markdown_files/figure-html/unnamed-chunk-2-1.png)<!-- -->
+![](unnamed-chunk-2-1.png)<!-- -->
 
 *There is an upward trend since 1980 and Quarterly trend throughout all years*
 
