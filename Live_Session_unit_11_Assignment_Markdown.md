@@ -114,7 +114,7 @@ eeadj <- seasadj(fitd)
 plot(eeadj)  
 ```
 
-![](Live_Session_unit_11_Assignment_Markdown_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+![](unnamed-chunk-4-1.png)<!-- -->
      
 e)	Change one observation to be an outlier (e.g., add 500 to one observation), and recompute the seasonally adjusted data. What is the effect of the outlier?   
 
@@ -132,14 +132,14 @@ f)	Does it make any difference if the outlier is near the end rather than in the
 plot(ukcars2)
 ```
 
-![](Live_Session_unit_11_Assignment_Markdown_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![](unnamed-chunk-6-1.png)<!-- -->
 
 ```r
 fitd2 <- decompose(ukcars2)
 plot(fitd2)
 ```
 
-![](Live_Session_unit_11_Assignment_Markdown_files/figure-html/unnamed-chunk-6-2.png)<!-- -->
+![](unnamed-chunk-6-2.png)<!-- -->
   
 *No it does not if it is only a single outlier*  
   
@@ -151,7 +151,7 @@ fit <- stl(ukcars, s.window=5)
 plot(fit)
 ```
 
-![](Live_Session_unit_11_Assignment_Markdown_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+![](unnamed-chunk-7-1.png)<!-- -->
 
 ```r
 plot(ukcars, col="gray",
@@ -161,6 +161,6 @@ lines(fit$time.series[,2],col="red"
       ,ylab="Trend")
 ```
 
-![](Live_Session_unit_11_Assignment_Markdown_files/figure-html/unnamed-chunk-7-2.png)<!-- -->
+![](unnamed-chunk-7-2.png)<!-- -->
 
 
